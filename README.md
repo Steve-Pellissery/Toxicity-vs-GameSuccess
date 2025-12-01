@@ -1,7 +1,7 @@
 Toxicity vs Game Success
 An Empirical Analysis of Online Gaming Communities & Player Engagement
 
-This project investigates whether community toxicity impacts a game's success, or whether player engagement (playtime) is a stronger predictor of profitability. Using 150k+ Steam reviews and game metadata, this study combines descriptive analytics, visualizations, and regression models to uncover what truly drives game performance.
+This project explores whether community toxicity impacts a game's success, or whether player engagement (playtime) is a more powerful driver of profitability. Using over 150,000 Steam reviews and game metadata, the analysis combines descriptive statistics, visualizations, and regression models to uncover what truly influences game performance.
 
 🎯 Research Question
 
@@ -9,23 +9,22 @@ Does toxicity negatively influence a game's success, or do players continue to e
 
 📌 Key Findings
 
-Toxicity does NOT reduce game success.
+Toxicity does NOT reduce overall game success.
 
-Engagement (playtime) is the strongest predictor of ownership and profitability (correlation ≈ 0.91).
+Engagement (playtime) is the strongest predictor of ownership and popularity (correlation ≈ 0.91).
 
-Competitive genres (MMO, Action) consistently show higher toxicity but remain highly successful.
+Action & MMO genres show higher toxicity, yet remain commercially successful.
 
-Logistic Regression confirms:
-✔ Playtime significantly predicts “top game” status
-✔ Toxicity has no statistically significant effect
+Logistic Regression shows:
 
-🧠 Methods & Techniques
+✔ Playtime predicts “top game” status
 
-This project uses a full Python-based analytics workflow:
+✔ Toxicity has no significant predictive effect
 
+🧠 Methods & Techniques Used
 ✔ Descriptive Analysis
 
-Exploring distributions, engagement trends, and toxicity patterns.
+Identified distributions, trends, and early patterns in engagement and sentiment.
 
 ✔ Data Visualizations
 
@@ -33,9 +32,9 @@ Correlation heatmaps
 
 Genre-toxicity boxplots
 
-Ownership vs playtime scatterplots
+Playtime vs ownership scatterplots
 
-Logistic classification charts
+Logistic model prediction charts
 
 ✔ Statistical Modeling
 
@@ -43,7 +42,7 @@ OLS Regression
 
 Regression with control variables
 
-Binary Logistic Regression (Top Game vs Not)
+Logistic Regression (Top vs Non-top games)
 
 ✔ Advanced Techniques
 
@@ -54,11 +53,11 @@ Model comparison
 Predictive probability visualization
 
 📂 Repository Structure
-/data               → Raw & cleaned datasets  
-/notebooks          → Colab notebooks for EDA, modeling & visuals  
-/outputs            → Final graphs, charts & summaries  
-/src                → Python scripts for helper functions  
-README.md           → Project overview
+/data           → Raw & cleaned datasets
+/notebooks      → Colab notebooks for EDA, modeling & visuals
+/outputs        → Final graphs, charts & summaries
+/src            → Helper Python scripts
+README.md       → Project overview
 
 🛠️ Tech Stack
 
@@ -72,30 +71,29 @@ Scikit-Learn
 
 Statsmodels
 
-
 📈 Business Implications
 
-Game developers can focus on enhancing engagement rather than policing every instance of toxicity.
+Developers should prioritize engagement-oriented features, as playtime strongly predicts success.
 
-Competitive genres may naturally attract stronger emotions but still produce strong commercial results.
+High-toxicity genres (competitive/MMO) continue to perform well—indicating players often tolerate toxicity for gameplay value.
 
-Engagement metrics (playtime, retention) can be used as early indicators of game success.
+Engagement metrics can serve as early performance indicators for studios and publishers.
 
 ⚠️ Limitations
 
-Steam data may not represent all gaming platforms
+Steam data may not generalize across all gaming platforms.
 
-Toxicity is based on keyword detection, which may under/overestimate context
+Keyword-based toxicity scoring may miss context (sarcasm, slang, etc.).
 
-Cross-sectional snapshot; not long-term behavioral data
+Analysis reflects a snapshot in time, not long-term behavioral changes.
 
 🚀 Future Work
 
-Apply NLP models (VADER, TextBlob, BERT) for more accurate sentiment scoring
+Apply advanced NLP models (VADER, TextBlob, BERT) for richer sentiment analysis.
 
-Build a predictive model for future game success
+Build a machine learning model to predict future game success.
 
-Explore community toxicity trends over time
+Analyze toxicity patterns over time to understand community evolution.
 
 👤 Author
 
