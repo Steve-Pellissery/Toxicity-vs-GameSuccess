@@ -62,9 +62,13 @@ Predictive probability visualization
 
 ### 📂 Repository Structure
 /data           → Raw & cleaned datasets
+
 /notebooks      → Colab notebooks for EDA, modeling & visuals
+
 /outputs        → Final graphs, charts & summaries
+
 /src            → Helper Python scripts
+
 README.md       → Project overview
 
 ---
