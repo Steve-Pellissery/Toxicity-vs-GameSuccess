@@ -122,5 +122,7 @@ Analyze toxicity patterns over time to understand community evolution.
 ### 👤 Author
 
 Steve Sebastian Pellissery
+
 Graduate Student — Business Analytics
+
 Clark University
