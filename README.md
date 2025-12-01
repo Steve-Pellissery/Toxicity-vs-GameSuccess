@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="outputs/StevePy.html" alt="Toxicity vs Game Success Banner" width="100%">
+</p>
+
 ### Toxicity vs Game Success
 An Empirical Analysis of Online Gaming Communities & Player Engagement
 
